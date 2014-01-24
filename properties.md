@@ -1,11 +1,9 @@
 ##TGrid properties
 
-All TGrid properties are
-
 There is 1 required TGrid property:
 
 
-1. ###itemsProvider
+1. ####itemsProvider
 
     Value: 
 
