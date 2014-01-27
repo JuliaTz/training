@@ -1,73 +1,73 @@
 ##TGrid properties
 
-There is 1 required TGrid property:
+Many TGrid properties has default values and are not required in template. If property is not defined in TGrid template, default property value is applied instead automatically.
 
+There is 1 required TGrid property:
 
 1. ####itemsProvider
 
-    Value: 
+    Value: the name of items provider
 
     Default value: there is not default value.
 
+Next properties are not requiered. If they are not defined, default value is used automatically.
 
-Next properties are not requiered. If they are not written, default value is used.
-
-1. ###enableCollapsing.
-    Meaning: enables or disables groups collapsing, if property "**enableGrouping**"    is set to *true*.
+1. ####enableCollapsing.
+    Enables or disables groups collapsing, if property "**enableGrouping**" is set to *true*.
 
     Value: *true* or *false*. 
 
     Default value: *false*
 
     Dependings on another properties: Is used only with property *enableGrouping*.
-2. ###enableFiltering.
-    Meaning: enables or disables filtering.
+2. ####enableFiltering.
+    Enables or disables filtering.
 
     Value: *true* or *false*.
 
     Default value: *false*.
-3. ###enableGrouping.
-    Meaning: enables or disables grouping.
+3. ####enableGrouping.
+    Enables or disables grouping.
 
     Value: *true* or *false*.
 
     Default value: *false*.
-4. ###enablePaging.
-    Meaning: enables or disables paging.
+4. ####enablePaging.
+    Enables or disables paging.
 
     Value: *true* or *false*.
 
     Default value: *false*.
-5. ###enableSorting.
-    Meaning: enables or disables sorting.
+5. ####enableSorting.
+    Enables or disables sorting.
 
     Value: *true* or *false*.
 
     Default value: *false*.
-6. ###enableVirtualScroll.
-    Meaning: enables or disables virtual scrolling.
+6. ####enableVirtualScroll.
+    Enables or disables virtual scrolling.
 
     Value: *true* or *false*.
 
     Default value: *false*.
-7. ###pageSize.
+7. ####pageSize.
 
-    Meaning: how many items will be displayed on 1 page
+    Defines how many items are displayed on 1 page.
 
     Value: number from 1 to  total items count.
 
     Default value: *10*.
-8. ###pageSlide.
+8. ####pageSlide.
 
-    Meaning: property for page navigation. 
+    Property for page navigation. 
     Sets how many pages to left and to right you can be able to navigate by one click on its number.
 
     Value: number from 1 to  total items count.
 
     Default value: *10*.
-9. ###selectionMode.
+9. ####selectionMode.
 
-    Meaning: sets how many items can be selected. 
+    Defines how many items can be selected in TGrid.
 
     Value: 
     + "none" - you can't select any item,
@@ -77,9 +77,9 @@ Next properties are not requiered. If they are not written, default value is use
     + "multi" - you can select more, then one item. For selecting more then one item, press key 'Ctrl'.
 
     Default value: *single*.
-10. ###showDetailsOnSelection.
+10. ####showDetailsOnSelection.
 
-    Meaning: sets will or won't be shown details on selection. 
+    Defines will or won't be shown details on selection. 
 
     Value: *true* or *false*.
 
